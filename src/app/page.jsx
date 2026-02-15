@@ -30,14 +30,12 @@ export default function Home() {
       {view === "welcome" || view === "flipping" ? (
         <MenuPage>
           <div className="flex flex-col items-center justify-between h-full w-full py-10">
-            {/* Welcome text */}
             <div className="flex-1 flex items-center justify-center">
-              <h1 className="text-5xl text-amber-300 font-[Great_Vibes] drop-shadow-lg">
+              <h1 className="items-center text-center text-5xl text-amber-300 font-[Great_Vibes] drop-shadow-lg">
                 Welcome to Cravely
               </h1>
             </div>
 
-            {/* Plate button pinned to bottom */}
             <PlateButton onClick={handleLetsEat} />
           </div>
         </MenuPage>
